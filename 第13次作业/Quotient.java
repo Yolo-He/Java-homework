@@ -1,0 +1,15 @@
+package 第13次作业;
+import java.util.Scanner;
+//12-1
+public class Quotient {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter two integer: ");
+		int number1 = input.nextInt();
+		int number2 = input.nextInt();
+		
+		System.out.println(number1 + " / " + number2 +
+				" is " + (number1 / number2));
+	} 
+}
